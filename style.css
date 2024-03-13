@@ -1,0 +1,144 @@
+.specializations-list {
+  display: none;
+}
+
+.show-list {
+  display: block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  display: none;
+  padding: 8px;
+  background-color: #C3E6CB;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 4px 8px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-toggle {
+  margin-right: 5px; /* Регулирует расстояние между кнопками */
+}
+.delete-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  display: none;
+  padding: 8px;
+  background-color: #F8D7DA; /* Изменяем цвет фона на красный (#F8D7DA) */
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.delete-dropdown-menu .dropdown-item {
+  display: block;
+  padding: 4px 8px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.delete-dropdown-menu .dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+.budget-block {
+  display: none;
+}
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+.h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.label {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input[type="email"],
+.input[type="password"]
+{
+
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1864B0;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #23527c;
+}
+
+.p {
+  color:#ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.a {
+  color: #337ab7;
+}
+.body {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh; /* Занимает 100% высоты видимой области */
+margin: 0;
+background-color: #0B2D50;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.corner-image {
+position: fixed;
+top: 7px;
+right: 10px;
+width: 250px; /* Установите нужную ширину */
+height: auto; /* Автоматическая высота, чтобы сохранить пропорции */
+}

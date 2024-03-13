@@ -1,0 +1,16 @@
+{
+    "name": "denis/localhost",
+    "autoload": {
+        "psr-4": {
+            "Denis\\Localhost\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.0"
+    }
+}
